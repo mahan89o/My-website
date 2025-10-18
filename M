@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fa">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>وبسایت نمونه — نام شما</title>
+  <style>
+    body{font-family: "Vazirmatn", sans-serif;line-height:1.6;padding:24px;background:#f7f7fb;color:#222}
+    header{max-width:900px;margin:20px auto;padding:24px;background:#fff;border-radius:12px;box-shadow:0 4px 18px rgba(0,0,0,0.06)}
+    h1{margin:0 0 8px;font-size:28px}
+    p.lead{margin:0;color:#555}
+    section.card{margin:18px auto;max-width:900px;background:#fff;padding:18px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.04)}
+    a.button{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:8px;text-decoration:none;border:1px solid #ddd}
+    footer{max-width:900px;margin:20px auto;text-align:center;color:#777}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>سلام! من [نام شما]</h1>
+    <p class="lead">چند خط درباره خودت یا کاری که می‌کنی — معرفی کوتاه.</p>
+    <a class="button" href="#projects">نمونه‌کارها</a>
+  </header>
+
+  <section id="projects" class="card">
+    <h2>نمونه‌کارها</h2>
+    <ul>
+      <li>پروژه ۱ — توضیح کوتاه</li>
+      <li>پروژه ۲ — توضیح کوتاه</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>تماس</h2>
+    <p>ایمیل: you@example.com</p>
+  </section>
+
+  <footer>
+    © 2025 — ساخته‌شده با ❤️
+  </footer>
+</body>
+</html>
